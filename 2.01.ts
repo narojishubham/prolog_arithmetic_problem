@@ -1,5 +1,5 @@
 
-function isPrime <T extends number> (startList:T,eandList:T) {
+export function isPrime <T extends number> (startList:T,eandList:T) {
 
 for (let i = startList; i <= eandList; i++) {
     let flag = 0;
