@@ -1,3 +1,10 @@
+// 2.01 (**) Determine whether a given integer number is prime.
+// Example:
+// ?- is_prime(7).
+// Yes
+
+
+
 
 export function isPrime <T extends number> (startList:T,eandList:T) {
 
