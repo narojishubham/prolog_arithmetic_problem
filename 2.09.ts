@@ -6,15 +6,11 @@
 
 import { greatestCommonDivisor } from "./2.07"
 
-function Phi(n):number {
+export function Phi(n:number): number {
     let result = 1;
-    for (let i:number = 2; i < n; i++)
+    for (let i: number = 2; i < n; i++)
         if (greatestCommonDivisor(i, n) == 1)
-            result+=1;
+            result += 1;
     return result;
-    
-      
 }
-
-
-console.log("phi = "+Phi(10));
+// console.log("phi = " + Phi(10));

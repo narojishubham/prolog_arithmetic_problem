@@ -17,4 +17,6 @@ export function primeFactors(input: number): Array<number> {
   }
   return primeFactorNumbers;
 }
-console.log(primeFactors(315));
+// console.log(primeFactors(315));
+
+;
