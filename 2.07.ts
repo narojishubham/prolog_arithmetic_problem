@@ -8,7 +8,7 @@
 // G = 9
 
 
-function greatestCommonDivisor(int1: number, int2: number): number {
+export function greatestCommonDivisor(int1: number, int2: number): number {
     while (int1 % int2 > 0) {
         let remainder: number = int1 % int2;
         int1 = int2;
@@ -16,4 +16,4 @@ function greatestCommonDivisor(int1: number, int2: number): number {
     }
     return int2;
 }
-console.log(greatestCommonDivisor(36, 63));
+// console.log(greatestCommonDivisor(36, 63));
